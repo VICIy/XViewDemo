@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:orientation="vertical"
+                tools:context="com.viciy.xviewdemo.MainActivity">
+
+    <com.viciy.xviewdemo.XView
+        android:id="@+id/xv_1"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+    <com.viciy.xviewdemo.XView
+        android:id="@+id/xv_2"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+    <com.viciy.xviewdemo.XView
+        android:id="@+id/xv_3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+</LinearLayout>
